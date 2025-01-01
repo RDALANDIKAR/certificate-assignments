@@ -1,0 +1,485 @@
+@font-face {
+  font-family: sub;
+  src: url("../fonts/GreatVibes-Regular.ttf");
+}
+@font-face {
+  font-family: cname;
+  src: url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+ 
+}
+
+/* @media all{
+	body.printView, body.printView:before, body.printView:after { 
+		border : none !important;
+	} */
+	.certificate-wrapper {
+	  overflow: hidden;
+	  width: 297mm;
+	  height: 210mm;
+	  position: relative;
+	  background: #FAF0E6 !important;
+	  line-height: normal;
+	}
+	.certificate-wrapper .certificate-background {
+	  /*position : absolute;*/
+	  left: 0mm;
+	  top: auto;
+	  width: 297mm;
+	  height: 210mm;
+	  overflow: hidden;
+	  position: relative;
+	}
+	.certificate-wrapper .certificate-background .recttop {
+		position: relative;
+		left: -27mm;
+		top: 146.45mm;
+		width: 60mm;
+		height: 8mm;
+		background: #FAF0E6 !important;
+		border-top: 5px solid rgb(255, 0, 0);
+		transform: skewy(-141deg);
+		z-index: 2;
+	}
+	.certificate-wrapper .certificate-background .recttop1 {
+		position: absolute;
+		left: -27mm;
+		top: 138.45mm;
+		width: 60mm;
+		height: 8mm;
+		background: #FAF0E6 !important;
+		/* border-top: 2px solid rgb(255, 0, 0); */
+		transform: skewy(-141deg);
+		z-index: 2;
+	}
+	.certificate-wrapper .certificate-background .rectleft-top{
+		position: relative;
+		left: 73mm;
+		top: 204.45mm;
+		width: 60mm;
+		height: 8mm;
+		background: #FAF0E6 !important;
+		border-top: 5px solid rgb(255, 0, 0);
+		transform: skewy(-316deg);
+		z-index: 2;
+
+	}
+	.certificate-wrapper .certificate-background .rectleft-top1{
+		position: relative;
+    left: 77mm;
+    top: 191.45mm;
+    width: 60mm;
+    height: 8mm;
+    background: #FAF0E6 !important;
+    border-top: px solid rgb(255, 8, 0);
+    transform: skewy(-315deg);
+    z-index: 2;
+
+	}
+	.certificate-wrapper .certificate-background .rectleft-top2{
+		position: relative;
+    left: 55mm;
+    top: 191.45mm;
+    width: 60mm;
+    height: 8mm;
+    background: #FAF0E6 !important;
+    border-: 2px solid rgb(255, 8, 0);
+    transform: skewy(-138deg);
+    z-index: 2;
+
+	}
+	.certificate-wrapper .certificate-background .rectleft {
+	  width: 15mm;
+	  height: 70mm;
+	  margin-left: 330px;
+	  margin-top: 570px; 
+	  background: rgb(4, 4, 4) !important;
+	  transform: skewx(48deg);
+	  position: absolute;
+	  z-index: 2;
+	}
+	.certificate-wrapper .certificate-background .tri1 {
+	  /*position : absolute;*/
+	  left: 0mm;
+	  top: 85mm;
+	  width: 0mm;
+	  height: 0mm;
+	  border-style: solid;
+	  border-width: 20pt 25pt 19pt 0;
+	  border-color: transparent #DC143C transparent transparent  !important;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .tri2 {
+	  /*position : absolute;*/
+	  left: 12mm;
+	  top: 80mm;
+	  width: 0mm;
+	  height: 0mm;
+	  border-style: solid;
+	  border-width: 34pt 0 33pt 55pt;
+	  border-color: transparent transparent transparent #DC143C !important;
+	  position: absolute;
+	  z-index: 1;
+	}
+	.certificate-wrapper .certificate-background .tri3 {
+	  /*position : absolute;*/
+	  left: 15mm;
+	  top: 71mm;
+	  width: 0mm;
+	  height: 0mm;
+	  border-style: solid;
+	  border-width: 19pt 48pt 28pt 0;
+	  border-color: transparent #DC143C transparent transparent !important;
+	  position: absolute;
+	  z-index: 1;
+	}
+	.certificate-wrapper .certificate-background .boxx {
+	  /* position : absolute; */
+	  left: 14mm;
+	  top: 0mm;
+	  width: 267mm;
+	  height: 180mm;
+	  background-color: #ffffff !important;
+	  opacity: 0.2;
+	  position: relative;
+	}
+
+	.certificate-wrapper .certificate-background .rectbtm {
+		left: 200mm;
+		top: 150mm;
+		width: 160mm;
+		height: 15mm;
+		background: #413e3f !important;
+		transform: skewy(220deg);
+		position: absolute;
+	  }
+		
+	
+	 .certificate-wrapper .certificate-background .rectbtm { 
+	
+	  left: 100mm;
+	  top: mm;
+	  width: 160mm;
+	  height: 15mm;
+	  background: #434242 !important;
+	  transform: skewy(deg);
+
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .rectright {
+		width: 15mm;
+		height: 43mm;
+		margin-left: 746px;
+		margin-top: -137px;
+		background: rgb(4, 4, 4) !important;
+		transform: skewx(45deg);
+		position: absolute;
+		z-index: 2;
+	}
+	.certificate-wrapper .certificate-background .rectright1 {
+		width: 8mm;
+		height: 13mm;
+		margin-left: 746px;
+		margin-top: -137px;
+		background: #FAF0E6 !important;
+		transform: skewx(45deg);
+		position: absolute;
+		z-index: 2;
+	}
+	.certificate-wrapper .certificate-background .rectright2 {
+		width: 8mm;
+		height: 13mm;
+		margin-left: 659px;
+		margin-top: -137px;
+		background: #FAF0E6 !important;
+		transform: skewx(45deg);
+		position: absolute;
+		z-index: 2;
+	}
+	.certificate-wrapper .certificate-background .rectright3 {
+		position: absolute;
+		left: 269mm;
+		top: 97.45mm;
+		width: 60mm;
+		height: 8mm;
+		background: #FAF0E6 !important;
+		border-bottom: 5px solid rgb(255, 0, 0);
+		transform: skewy(-316deg);
+		z-index: 2;
+	}
+	.certificate-wrapper .certificate-background .rectright4 {
+		width: 8mm;
+		height: 13mm;
+		margin-left: 1071px;
+		margin-top: 220px;
+    background: #FAF0E6 !important;
+    transform: skewx(45.5deg);
+    position: absolute;
+    z-index: 2;
+	}
+	.certificate-wrapper .certificate-background .rectright5 {
+		width: 8mm;
+		height: 23mm;
+		margin-left: 660px;
+		margin-top: -122px;
+		background: #FAF0E6 !important;
+		border-right: 5px solid rgb(255, 0, 0);
+		transform: skewx(45.5deg);
+		position: absolute;
+		z-index: 2;
+	}
+	.certificate-wrapper .certificate-background .tri4 {
+	  /*position : absolute;*/
+	  left: 286.5mm;
+	  top: 112mm;
+	  width: 0mm;
+	  height: 0mm;
+	  border-style: solid;
+	  border-width: 19pt 0 18pt 28pt;
+	  border-color: transparent transparent transparent #f70334 !important;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .tri5 {
+	  /*position : absolute;*/
+	  left: 264mm;
+	  top: 104mm;
+	  width: 0mm;
+	  height: 0mm;
+	  border-style: solid;
+	  border-width: 37pt 55pt 34pt 0;
+	  border-color: transparent #DC143C transparent transparent !important;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .tri6 {
+	  /*position : absolute;*/
+	  left: 263mm;
+	  top: 122mm;
+	  width: 0mm;
+	  height: 0mm;
+	  border-style: solid;
+	  border-width: 30pt 0 27pt 45pt;
+	  border: 2px solid #DC143C !important;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .boxbtm {
+	
+	  left: 14mm;
+	  top: 140mm;
+	  width: 109mm;
+	  height: 90mm;
+	  margin-top:449px;
+	  clip-path: polygon(0 100%, 100% 100%, 0 0);
+	  background-color: #DC143C;
+	  z-index: 2;
+	 
+	}
+	.certificate-wrapper .certificate-background .boxtop {
+	  /*position : absolute;*/
+	  left: 201mm;
+	  top: 0.5mm;
+	  width: 109mm;
+	  height: 109mm;
+	  clip-path: polygon(100% 0, 100% 100%, 0 0);
+	  background-color: #DC143C;
+	  /* border-top: 3pt solid #800000 !important; */
+	  /* border-right: 3pt solid #800000 !important; */
+	  position: absolute;
+	  margin-right: 10px;
+	}
+	.certificate-wrapper .certificate-background .boxtop1{
+		width: 15mm;
+    height: 70mm;
+    margin-left: 330px;
+    margin-top: 570px;
+    background: rgb(4, 4, 4) !important;
+    transform: skewx(48deg);
+    position: absolute;
+
+	}
+	.certificate-wrapper .certificate-background .boxtop2{
+
+	}
+	.certificate-wrapper .certificate-background .boxtop3{
+
+	}
+	.certificate-wrapper .certificate-background .boxtop4{
+
+	}
+	.certificate-wrapper .certificate-background .boxtop5{
+
+	}
+	.certificate-wrapper .certificate-background .boxtop6{
+
+	}
+	.certificate-wrapper .certificate-content {
+	  top: 10mm;
+	  outline: 3px solid #DC143C;
+	  outline-offset: 15px;
+	  border: solid #DC143C;;
+	  border-width: 3px;
+	  /* border-block-end: 0px; */
+	  right: 10mm;
+	  bottom: 10mm;
+	  left: 10mm;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .title {
+	  position: relative;
+	  left: -54mm;
+      top: 16mm;
+	  right: 0mm;
+	  font-size: 70pt;
+	  /* text-shadow: 2mm 2mm 2mm #000000 !important; */
+	  text-align: center;
+	  color: #413e3f;
+	  margin: auto;
+	  /* font-family : sub; */
+	  line-height: normal;
+	}
+	.certificate-wrapper .certificate-content .sr-no {
+	  position: absolute;
+	  left: 0mm;
+	  top: 0mm;
+	  font-size: 16pt;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .org-logo {
+	  left: 5mm;
+	  bottom: 0mm;
+	  position: absolute;
+	  z-index: 2;
+	  width: 109mm;
+	  height: 55mm;
+	  margin-left: 398px;
+	}
+	.certificate-wrapper .certificate-content .org-logo img {
+		margin-left: 103px;
+    margin-top: -93px;
+    height: 208px;
+    width: 180px;
+	}
+	.certificate-wrapper .certificate-content .subtitle {
+		position: absolute;
+		left: -163mm;
+		top: 40mm;
+		right: 0mm;
+		color: #413e3f !important;
+		/* font-family: sub; */
+		font-size: 27pt;
+		text-align: center;
+		margin: auto;
+	}
+	.certificate-wrapper .certificate-content .initial-content {
+	  position: absolute;
+	  left: 0mm;
+	  top: 62mm;
+	  right: 0mm;
+	  font-size: 14pt;
+	  text-align: center;
+	  margin: auto;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .candidate-name {
+		left: 0mm;
+		top: 72mm;
+		right: 0mm;
+		font-family: sub;
+		font-size: 23pt;
+		color: #333335 !important;
+		text-align: center;
+		margin: auto;
+		position: absolute
+	}
+	.certificate-wrapper .certificate-content .main-content {
+	  position: absolute;
+	  left: 15mm;
+	  top: 85mm;
+	  right: 15mm;
+	  font-size: 14pt;
+	  text-align: center;
+	  margin: auto;
+	  position: absolute;
+	  border : none;
+	  line-height : normal;
+	}
+
+	.certificate-wrapper .certificate-content .main-content p {
+		margin-top: 3mm;
+	}
+	
+	.certificate-wrapper .certificate-content .certificate-logo {
+	  position: absolute;
+	  left: auto;
+	  top: 20mm;
+	  right: 15mm;
+	  position: absolute;
+	  z-index: 1;
+	}
+	.certificate-wrapper .certificate-content .certificate-logo img {
+	  width: auto;
+	  height: 30mm;
+	  max-width: 60mm;
+	}
+	.certificate-wrapper .certificate-content .date {
+	  position: absolute;
+	  left: auto;
+	  top: 1mm;
+	  right: 1mm;
+	  font-size: 14pt;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .sign-president-img
+	{
+		top: 121mm;
+    left: 90mm;
+    width: 40mm;
+    height: 20mm;
+    position: absolute
+	}
+	.certificate-wrapper .certificate-content .sign-director-img
+	{
+		top: 121mm;
+    left: 188mm;
+    width: 40mm;
+    height: 20mm;
+    position: absolute
+	}
+	.certificate-wrapper .certificate-content .sign-director {
+		left: 191mm;
+		top: 146mm;
+		font-size: 12pt;
+		border-top: 0.5pt solid;
+		line-height: 8mm;
+		position: absolute;
+	}
+	
+	.certificate-wrapper .certificate-content .sign-president {
+		left: 92mm;
+		top: 147mm;
+		font-size: 12pt;
+		border-top: 0.5pt solid;
+		line-height: 8mm;
+		position: absolute;
+	}
+	.certificate-wrapper .certificate-content .org-name {
+	  position: absolute;
+	  left: auto;
+	  bottom: 11mm;
+	  right: 3mm;
+	  text-align: right;
+	  font-size: 18pt;
+	  font-weight: bold;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .org-address {
+	  right: 3mm;
+	  bottom: 0mm;
+	  width: 170mm;
+	  text-align: right;
+	  font-size: 12pt;
+	  font-weight: bold;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .org-address p {
+	  margin-bottom: 0mm;
+	  margin-top : 0mm;
+	}
